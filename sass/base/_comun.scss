@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    font-family: 'Century Gothic', sans-serif;
+    a{
+    	    -webkit-transition: 0.5s all;
+    }
+}
+
+@media (min-width: 1200px) {
+.container {
+    width: 1300px;
+}
+}
+
+
