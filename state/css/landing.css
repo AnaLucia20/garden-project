@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;}
+.row{
+	margin: 0px !important;}
+.text-light{font-family: 'OpenSans-Light'; color:black;}
+.text-aparaj{font-family: 'Aparaj_0';}
+.color-white{color: white !important;}
+.navbar{
+	margin-bottom: 0px !important;
+	font-family: 'Aparaj_0';}
+.nav-top {
+    background-color: white !important;
+	color: black !important;
+	height: 30px;
+	padding: 20px;
+	border-top: 4px solid #BBD8A2;}
+.logo{width: 60%;}
+/*.navbar-default{
+	background-color: #0e5d36 !important;
+	margin-bottom: 0px !important-;
+	position: fixed !important;
+	z-index: 1000;
+	width: 100%}
+.navbar-default li a{
+	color: white !important;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: transparent !important;}
+.nav-top {
+    background-color: white !important;
+	color: black !important;
+	height: 30px;
+	padding: 20px;
+	border-top: 4px solid #BBD8A2;}
+.nav.navbar-nav li a{
+	font-size:11px;
+	padding: 15px 11px;}
+.navbar-nav{
+	padding-left: 24% !important;
+	position: absolute;	}
+/********************NAV****/
+#bg-home{
+	background-image: url(../img/inicio-optimizados/banner1.jpg);
+	width: 100%;
+	width: 100%;
+	background-size: cover;
+	height: 600px;
+	background-position: bottom; }
+
+.content-text {
+    text-align: center;
+    position: relative;
+    top: 140px;
+    margin: auto;
+    color: white; 
+	font-family: 'Aparaj_0';}
+
+.content-text .wrap-txt{
+	position: absolute;
+	width: 100%;
+	top:340px;}
+/*LINE WHITE***********************/
+#options {padding: 9% 5% 0;}
+.txt-xs{font-size: 12px;}
+#options h4{
+	color: #002E24;
+	margin-bottom: 50px;
+	font-family: 'Aparaj_0'}
+/*****************IMG BOX ******/
+#grid-img{margin-top: 25px; font-family: 'Aparaj_0'}
+.img-box{
+	width: 100%;
+	background-image: url('../images/inicio-optimizados/inicio-habitaciones.jpg');
+	background-size: cover;
+	height:180px;}
+
+.img-box1{
+	background-image: url(../images/inicio-optimizados/banner1.jpg);
+	width: 100%;
+	background-size: cover;
+	height:180px;}
+
+.img-box2{
+	background-image: url(../images/inicio-optimizados/inicio-sala-de-conferencia.jpg);
+	width: 100%;
+	background-size: cover;
+	height:180px;}
+
+.img-box3{
+	background-image: url(../images/inicio-optimizados/inicio-restaurante.jpg);
+	width: 100%;
+	background-size: cover;
+	height:180px;}
+
+.green-light{
+	background-color: #BBD8A2;
+	display: inline-flex;
+	width: 100%;}
+
+.green-dark{
+	background-color: #002E24;
+	width: 22%;
+	padding: 14px;}
+
+.img-dark{width: 30px;}
+
+.title-service{
+	padding: 25px 15px 0px;
+	color: #002E24;
+}
+
+/*****************IMG ZOOM***********/
+.overflow{
+	overflow: hidden;
+	width: 100%;
+    cursor: pointer;
+    -webkit-transition: -webkit-all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.img-zoom{
+    width: 100%;
+    -webkit-transition: -webkit-all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;}
+
+.img-zoom:hover{
+  -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: -webkit-all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;}

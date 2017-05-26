@@ -1,0 +1,125 @@
+//*header*//
+section.header {
+  padding: 30px 0 10px;
+}
+.head-right {
+  p {
+    float: right;
+  }
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.idiomas {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    li{
+      font-size: 12px;
+        a {
+          color: #666;
+        }
+    }
+    }
+}
+
+.icon_euu {
+    background: url(../images/btn_idi_euu.jpg) no-repeat;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.icon_peru {
+    background: url(../images/btn_idi_peru.jpg) no-repeat;
+    padding-left: 30px;
+}
+/*/*/
+/*menu*/
+.navbar-default {
+    background-color: #0E5D36;
+    border: none;
+}
+.navbar {
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+/*jugadamenu*/
+.navbar-brand {
+display: none;
+}
+.navbar-nav {
+    margin-left: -15px;
+}
+.logo-nav {
+      text-align: center;
+    position: relative;
+}
+.circle-logo {
+    background-color: #fff;
+    position: absolute;
+    left: 44%;
+    bottom: -85px;
+    z-index: 1;
+    border-bottom-left-radius: 127px;
+    /* text-shadow: 5px 4px 10px #2b0a0c; */
+    padding: 40px;
+    border-bottom-right-radius: 119px;
+}
+
+/**/
+.text-financiero {
+    padding: 30px 0 50px;
+    text-align: center;
+    .intro {
+      padding-top: 10px;
+    }
+}
+.box-financiero {
+  display: flex;
+  justify-content: space-between;
+
+  .col-flex {
+    width: 20%;
+    background-color: #0E5D36;
+      position: relative;
+
+    img {
+      width: 100%;
+    }
+    .box-verde{
+      background-color: rgba(14, 93, 54, 0.79);
+      position: absolute;
+      bottom: 0px;
+      height: 30%;
+      width: 100%;
+      p {
+        margin: 0;
+        font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+        padding: 20px;
+      }
+    }
+
+  }
+}
+/*FOOTER*/
+.footer {
+  color: #fff;
+  background-color: #002D23;
+  .footer-logo{
+    text-align: center;
+    img {
+          padding: 20px;
+    }
+  }
+  .contac {
+    background-color: #01281F;
+  }
+}
