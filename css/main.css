@@ -83,10 +83,10 @@ body {
   float: right; }
 
 section.header {
-  /*padding: 30px 0 10px;*/ 
+  padding: 30px 0 10px;
   background-color: white !important;
   color: black !important;
-  padding: 11px;
+  /*padding: 11px;*/
   border-top: 4px solid #BBD8A2;}
 
 .head-right p {
@@ -142,23 +142,57 @@ ul {
   margin-left: -15px; }
 
 .logo-nav {
-  text-align: center;
-  position: relative; }
+  display: flex;
+  
+justify-content: center;
+}
 
 .circle-logo {
-  background-color: #fff;
-  position: absolute;
-  left: 36%;
-  bottom: -85px;
-  z-index: 1;
-  border-bottom-left-radius: 127px;
-  /* text-shadow: 5px 4px 10px #2b0a0c; */
-  padding: 40px;
-  border-bottom-right-radius: 119px; }
+    background-color: #fff;
+    position: absolute;
+    /* left: 40%; */
+    top: 22px;
+    /* bottom: -99px; */
+    z-index: 1;
+    border-bottom-left-radius: 130px;
+    padding: 0px 50px 20px;
+    border-bottom-right-radius: 130px;
 
+    ground-color: #002D23;
+}
+/*-hover-on-*/
+.nav-hover li {
+  position: relative; }
+  .nav-hover li a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #BBD8A2;
+    -webkit-transform-origin: left top;
+            transform-origin: left top;
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
+    -webkit-transition: color 0.3s,-webkit-transform 1s ease-out;
+    transition: color 0.3s,-webkit-transform 1s ease-out;
+    transition: color 0.3s,transform 1s ease-out;
+    transition: color 0.3s,transform 1s ease-out,-webkit-transform 1s ease-out; }
+  .nav-hover li a:active::before {
+    background-color: #BBD8A2; }
+  .nav-hover li a:hover::before, .nav-hover li a:focus::before {
+    -webkit-transform-origin: left top;
+            transform-origin: left top;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1); }
 /**/
+
+
+
 .text-financiero {
-  padding: 30px 0 50px;
+  padding: 9% 0 50px;
   text-align: center; }
   .text-financiero .intro {
     padding-top: 10px; }
@@ -179,7 +213,7 @@ ul {
     .box-financiero .col-flex .box-verde {
       background-color: rgba(14, 93, 54, 0.79);
       position: absolute;
-      bottom: 0px;
+      bottom: -1px;
       height: 30%;
       width: 100%; }
       .box-financiero .col-flex .box-verde p {
