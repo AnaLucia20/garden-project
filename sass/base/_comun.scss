@@ -30,6 +30,10 @@ body {
 .pd-0 {
 	padding: 0;
 }
+.items-line {
+	display: flex;
+    align-items: flex-start;
+}
 
 
 section.header {
@@ -38,9 +42,6 @@ section.header {
   color: black !important;
   /*padding: 11px;*/
   border-top: 4px solid #BBD8A2;}
-
-.head-right p {
-  float: right; }
 
 ul {
   padding: 0;
@@ -64,14 +65,24 @@ ul {
         color: #666; }
 
 .icon_euu {
-  background: url(../images/btn_idi_euu.jpg) no-repeat;
-  padding-left: 30px;
-  margin-left: 20px; }
+  background: url(../icons/eeuu.svg) no-repeat;
+  padding-left: 47px;
+    margin-left: 20px;
+}
 
 .icon_peru {
-  background: url(../images/btn_idi_peru.jpg) no-repeat;
-  padding-left: 30px; }
-
+  background: url(../icons/peru.svg) no-repeat;
+  padding-left: 47px;
+}
+.header-contacto {
+	    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 13px;
+    p{
+    	padding-left: 10px;
+    }
+}
 /*/*/
 /*menu*/
 .navbar-default {
@@ -101,12 +112,12 @@ justify-content: center;
     background-color: #fff;
     position: absolute;
     /* left: 40%; */
-    top: 22px;
+    top: 39px;
     /* bottom: -99px; */
     z-index: 1;
-    border-bottom-left-radius: 130px;
-    padding: 0px 50px 20px;
-    border-bottom-right-radius: 130px;
+border-bottom-left-radius: 171px;
+    padding: 0px 76px 21px;
+    border-bottom-right-radius: 171px;
 
     ground-color: #002D23;
 }
@@ -138,7 +149,21 @@ justify-content: center;
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1); }
 /**/
-
+/*carousel*/
+.carousel-inner {
+	.txt-slid {
+		color: #fff;
+		h2 {
+			font-size: 40px;
+		}
+	}
+}
+/**/
+/*#option*/
+.sectio-title {
+	padding-bottom: 50px;
+}
+/**/
 
 
 .text-financiero {
@@ -247,11 +272,8 @@ body {
     padding: 0;}
 .row{
   margin: 0px !important;}
-/*.text-light{font-family: 'OpenSans-Light'; color:black;}*/
-.color-white{color: white !important;}
+
 .color-green{color: #0E5D36;}
-.size-11{font-size: 11px;}
-.size-12{font-size: 12px;}
 
 
 .box-verde {
@@ -285,7 +307,8 @@ body {
   height: 30px;
   padding: 20px;
   border-top: 4px solid #BBD8A2;}
-.logo{width: 100%;}
+.logo{    width: 135px;
+}
 /*.navbar-default{
   background-color: #0e5d36 !important;
   margin-bottom: 0px !important-;
@@ -342,25 +365,25 @@ body {
   width: 100%;
   background-image: url('../images/inicio-optimizados/inicio-habitaciones.jpg');
   background-size: cover;
-  height:180px;}
+  height:232px;}
 
 .img-box1{
   background-image: url(../images/inicio-optimizados/banner1.jpg);
   width: 100%;
   background-size: cover;
-  height:180px;}
+  height:232px;}
 
 .img-box2{
   background-image: url(../images/inicio-optimizados/inicio-sala-de-conferencia.jpg);
   width: 100%;
   background-size: cover;
-  height:180px;}
+  height:232px;}
 
 .img-box3{
   background-image: url(../images/inicio-optimizados/inicio-restaurante.jpg);
   width: 100%;
   background-size: cover;
-  height:180px;}
+  height:232px;}
 
 .green-light{
   background-color: #BBD8A2;
@@ -370,7 +393,8 @@ body {
 .green-dark{
   background-color: #002E24;
   width: 22%;
-  padding: 14px;}
+  padding: 14px;
+text-align: center;}
 
 .img-dark{width: 30px;}
 

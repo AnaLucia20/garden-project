@@ -31,12 +31,11 @@ html
 				section.header
 					.container.content-small
 						.row
+							.items-line.col-md-3.col-xs-12.col-sm-12
+									img(src="icons/ubicacion.svg" width="25px")
+									p.mg-0(style='font-size: 12px;    padding-left: 10px;') Avenida Ricardo Rivera Navarrete 450, San Isidro
+							.col-md-5.col-xs-12.col-sm-12
 							.col-md-4.col-xs-12.col-sm-12
-								
-									p.mg-0(style='font-size: 12px;') Avenida Ricardo Rivera Navarrete 450,
-									p(style='font-size: 12px;') San Isidro
-							.col-md-4.col-xs-12.col-sm-12
-							.col-md-8.col-xs-12.col-sm-12
 								.head-right
 									.idiomas
 										ul
@@ -44,9 +43,11 @@ html
 												a.icon_peru(href='') Español
 											li
 												a.icon_euu(href='') Ingles
-									p
-										| (511) 
-										strong 2002800
+									.header-contacto
+										img(src="icons/tel.svg" width="25px")
+										p
+											| (511) 
+											strong 2002800
 				section.logo-nav
 					.circle-logo
 						img.logo(src='images/logo-menu.svg', alt='logo-hotel-garden')
@@ -79,41 +80,46 @@ html
 										a(href='#') UBICACIÓN 
 			section
 				#carousel-example.carousel.slide(data-ride='carousel')
-					ol.carousel-indicators
-						li.active(data-target='#carousel-example', data-slide-to='0')
-						li(data-target='#carousel-example', data-slide-to='1')
-						li(data-target='#carousel-example', data-slide-to='2')
+
 					.carousel-inner
 						.item.active
 							a(href='#')
 								img(src='./images/inicio-optimizados/banner1.jpg')
 							.carousel-caption
-								.color-white
-									h1
+								.txt-slid
+									img(src="icons/marco-top.svg" width="300")
+									h2
 										| DESPIERTA A 5 MINUTOS DE TODO
-									h6 en el corazón den centro financiero, San Isidro - Lima
+									h4 en el corazón den centro financiero, San Isidro - Lima
+									img(src="images/marco-centro.png" width="300")
 						.item
 							a(href='#')
 								img(src='./images/inicio-optimizados/banner2.jpg')
 							.carousel-caption
-								.color-white
-									h1
+								.txt-slid
+									img(src="icons/marco-top.svg" width="300")
+									h2
 										| DESPIERTA A 5 MINUTOS DE TODO
-									h6 en el corazón den centro financiero, San Isidro - Lima
+									h4 en el corazón den centro financiero, San Isidro - Lima
+									img(src="images/marco-centro.png" width="300")
 						.item
 							a(href='#')
 								img(src='./images/inicio-optimizados/banner3.jpg')
 							.carousel-caption
-								h4
-									| DESPIERTA A 5 MINUTOS DE TODO
-								h6 en el corazón den centro financiero, San Isidro - Lima
+								.txt-slid
+									img(src="icons/marco-top.svg" width="300")
+									h2
+										| DESPIERTA A 5 MINUTOS DE TODO
+									h4 en el corazón den centro financiero, San Isidro - Lima
+									img(src="images/marco-centro.png" width="300")
 						.item
 							a(href='#')
 								img(src='./images/inicio-optimizados/banner4.jpg')
 							.carousel-caption
-								h4
-									| DESPIERTA A 5 MINUTOS DE TODO
-								h6 en el corazón den centro financiero, San Isidro - Lima
+								.txt-slid
+									h2
+										| DESPIERTA A 5 MINUTOS DE TODO
+									h4 en el corazón den centro financiero, San Isidro - Lima
 					a.left.carousel-control(href='#carousel-example', data-slide='prev')
 						span.glyphicon.glyphicon-chevron-left
 					a.right.carousel-control(href='#carousel-example', data-slide='next')
@@ -121,9 +127,10 @@ html
 		section#options
 			.container
 				.text-center
-					p.size-11 Por que nuestro huésped es importante 
-					h2.mg-0.color-green OFRECEMOS CALIDAD
-					img(src='images/marco-centro.png')
+					.sectio-title
+						p Por que nuestro huésped es importante 
+						h2.mg-0.color-green OFRECEMOS CALIDAD
+						img(src='images/marco-centro.png')
 					p
 						| El Garden Hotel es un hotel 4 estrellas, ubicado en el moderno distrito de San Isidro, en la cuidad de Lima, Perú.
 						br
@@ -182,11 +189,11 @@ html
 		.text-financiero
 			.container(style='padding: 0px')
 				.row
-					p.size-11 Estamos ubicados en el
+					p Estamos ubicados en el
 					h2.mg-0.color-green CENTRO FINANCIERO
 					img(src='images/marco-centro.png')
 				.row
-					.col-md-offset-3.col-md-6.intro
+					.col-md-offset-2.col-md-8.intro
 						p
 							| Vive la modernidad de San Isidro, áreas verdes, cafés, centros comerciales y los mejores restaurantes.Además estamos cerca del Centro de Convenciones de Lima donde se realizan los mas importantes eventos.
 		section
