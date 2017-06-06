@@ -25,6 +25,22 @@ body a {
   border: 1.3px solid #bbd8a2;
   padding: 10px; }
 
+.i-green-light{
+  color: #BBD8A2;
+}
+
+.color-white{
+  color: white;
+}
+
+.mr-5{
+  margin-right: 5px;
+}
+
+.inlineflex{
+  display: inline-flex;
+}
+
 /*.schedules {
 	display: inline-flex;
 }
@@ -78,10 +94,16 @@ ul {
   background: url(../icons/eeuu.svg) no-repeat;
   padding-left: 47px;
   margin-left: 20px; }
+.icon_euu:hover {
+  background: url(../icons/eeuu-hover.svg) no-repeat;
+}
 
 .icon_peru {
   background: url(../icons/peru.svg) no-repeat;
   padding-left: 47px; }
+.icon_peru:hover {
+  background: url(../icons/peru-hover.svg) no-repeat;
+}
 
 .header-contacto {
   display: -webkit-box;
@@ -317,11 +339,12 @@ body {
   bottom: -1px;
   height: 38%;
   width: 100%;
-  padding: 5px 8px; }
+  padding: 14px; }
 
 .box-verde.green-dark {
   background-color: rgba(14, 93, 54, 0.92) !important;
-  width: initial; }
+  width: initial; 
+  text-align: left;}
 
 .navbar {
   margin-bottom: 0px !important; }
@@ -470,3 +493,31 @@ body {
   -webkit-transition: -webkit-all 1s ease;
   -webkit-transition: all 1s ease;
   transition: all 1s ease; }
+
+/**********FOOTER¨**************/
+.icon-footer{
+  width: 20px;
+}
+.all-center{
+  font-size: 10px;
+  line-height: 12px;
+}
+/*********ICON SLIDER*************/
+.icon-left, .icon-right {
+    background-color: #E6D9D0;
+    border-radius: 50px;
+    padding: 5px 20px;
+    position: relative;
+    top: 58%;
+    font-size: 50px;
+}
+.btn-reserva {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 0px;
+  z-index: 999;
+  top: 40%;
+}
+

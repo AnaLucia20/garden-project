@@ -5,6 +5,8 @@
     <meta name="keywords" content="eccscdsafcdsfdafcd">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- fontawesome-->
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- bootstrap-->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
@@ -12,7 +14,6 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
     <!-- mystyles-->
     <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/landing.css" rel="stylesheet" type="text/css" media="all">
     <!-- fonts-->
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <!-- favicon-->
@@ -83,10 +84,13 @@
       </div>
       <section>
         <div class="carousel slide" id="carousel-example" data-ride="carousel">
+          <div class="btn-reserva">
+          </div>
           <div class="carousel-inner">
             <div class="item active"><a href="#"><img src="./images/inicio-optimizados/banner1.jpg"></a>
               <div class="carousel-caption">
-                <div class="txt-slid"><img src="icons/marco-top.svg" width="300">
+                <div class="txt-slid">
+                  <img src="icons/marco-top.svg" width="300">
                   <h2>DESPIERTA A 5 MINUTOS DE TODO</h2>
                   <h4>en el corazón den centro financiero, San Isidro - Lima</h4><img src="images/marco-centro.png" width="300">
                 </div>
@@ -111,12 +115,20 @@
             <div class="item"><a href="#"><img src="./images/inicio-optimizados/banner4.jpg"></a>
               <div class="carousel-caption">
                 <div class="txt-slid">
+                  <img src="icons/marco-top.svg" width="300">
                   <h2>DESPIERTA A 5 MINUTOS DE TODO</h2>
                   <h4>en el corazón den centro financiero, San Isidro - Lima</h4>
+                  <img src="images/marco-centro.png" width="300">
                 </div>
               </div>
             </div>
-          </div><a class="left carousel-control" href="#carousel-example" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#carousel-example" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+          <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+            <i class="fa fa-angle-left icon-left" aria-hidden="true"></i>
+          </a>
+          <a class="right carousel-control" href="#carousel-example" data-slide="next">
+            <i class="fa fa-angle-right icon-right" aria-hidden="true"></i>
+          </a>
         </div>
       </section>
     </div>
@@ -130,16 +142,28 @@
           <p>El Garden Hotel es un hotel 4 estrellas, ubicado en el moderno distrito de San Isidro, en la cuidad de Lima, Perú.<br>            Nuestras confortables habitaciones, cordial servicio y exelente ubicación aseguran el éxito de tu viaje.</p><br><br>
         </div>
         <div class="col-md-3">
-          <p>Recepción con atención las 24 horas en inglés o español</p>
+          <div class="inlineflex">
+            <span class="mr-5"><i class="fa fa-circle i-green-light" aria-hidden="true"></i></span>
+            <p style="font-size: 13px;"> Recepción con atención las 24 horas en inglés o español</p>
+          </div>
         </div>
         <div class="col-md-3">
-          <p>WiFi gratuito en todo el hotel de hasta 50MB</p>
+          <div class="inlineflex">
+            <span class="mr-5"><i class="fa fa-circle i-green-light" aria-hidden="true"></i></span>
+            <p style="font-size: 13px;">WiFi gratuito en todo el hotel de hasta 50MB</p>
+          </div>
         </div>
         <div class="col-md-3">
-          <p>Estacionamiento gratuito</p>
+          <div class="inlineflex">
+            <span class="mr-5"><i class="fa fa-circle i-green-light" aria-hidden="true"></i></span>
+            <p style="font-size: 13px;">Estacionamiento gratuito</p>
+          </div>
         </div>
         <div class="col-md-3">
-          <p>Áreas de trabajo disponibles</p>
+          <div class="inlineflex">
+            <span class="mr-5"><i class="fa fa-circle i-green-light" aria-hidden="true"></i></span>
+            <p style="font-size: 13px;">Áreas de trabajo disponibles</p>
+          </div>
         </div>
       </div>
       <div class="large">
@@ -232,16 +256,24 @@
         <div class="row"><img src="images/logo-footer.svg"></div>
       </div>
       <div class="contac">
-        <div class="container content-small" style="padding: 1% 10%">
+        <div class="container content-small" style="padding: 1% 12% 1% 4%">
           <div class="row">
-            <div class="col-md-5">
-              <p class="color-white" style="margin-bottom: 0px">Avenida Ricardo Rivera Navarrete 450, San Isidro </p>
+            <div class="col-md-7">
+              <p class="color-white" style="margin-bottom: 0px">
+                 <img class="icon-footer" src="icons/direccion-cabecera.svg" alt="">
+                Avenida Ricardo Rivera Navarrete 450, San Isidro </p>
             </div>
             <div class="col-md-3">
-              <p class="color-white" style="margin-bottom: 0px">(511) 2002800					</p>
+              <p class="color-white" style="margin-bottom: 0px">
+                <img class="icon-footer" src="icons/telefono-footer.svg">
+                (511) 2002800	
+              </p>
             </div>
-            <div class="col-md-4">
-              <p class="color-white" style="margin-bottom: 0px">informes@gardenhotel.com</p>
+            <div class="col-md-2">
+              <p class="color-white" style="margin-bottom: 0px">
+                <img class="icon-footer" src="icons/lapiz.svg">
+                informes@gardenhotel.com
+              </p>
             </div>
           </div>
         </div>
