@@ -1,0 +1,192 @@
+doctype html
+html
+	head
+		title Gaden Hotel
+		meta(name='keywords', content='eccscdsafcdsfdafcd')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+		// bootstrap
+		link(href='css/bootstrap.css', rel='stylesheet', type='text/css', media='all')
+		// jQuery (necessary for Bootstrap's JavaScript plugins)
+		// animate.css
+		link(href='css/animate.css', rel='stylesheet', type='text/css', media='all')
+		// mystyles
+		link(href='css/main.css', rel='stylesheet', type='text/css', media='all')
+		link(href='css/ofertas.css', rel='stylesheet', type='text/css', media='all')
+		link(href='css/landing.css', rel='stylesheet', type='text/css', media='all')
+		link(href='css/hotel.css', rel='stylesheet', type='text/css', media='all')
+		// fonts
+		link(href='css/fonts.css', rel='stylesheet', type='text/css')
+		// favicon
+		// link(rel="shortcut icon",href="http://larepublica.pe/favicon.ico")
+		script(src='js/jquery.min.js')
+		script(src='js/slick.js')
+		// wow.js-animate
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js')
+		script(src='js/min.js')
+		script.
+			new WOW().init();
+	body
+		.nav-fix(style='position: fixed;width: 100%;z-index: 99;')
+			section.header
+				.container.content-small
+					.row
+						.col-md-4.col-xs-12.col-sm-12
+							.text-light
+								p.mg-0(style='font-size: 12px;') Avenida Ricardo Rivera Navarrete 450,
+								p(style='font-size: 12px;') San Isidro
+						.col-md-4.col-xs-12.col-sm-12
+						.col-md-8.col-xs-12.col-sm-12
+							.head-right
+								.idiomas.text-light
+									ul
+										li
+											a.icon_peru(href='') Español
+										li
+											a.icon_euu(href='') Ingles
+								p
+									| (511) 
+									strong 2002800
+			section.logo-nav
+				.circle-logo
+					img.logo(src='images/logo-menu.svg', alt='logo-hotel-garden')
+			section.menu
+				nav.navbar.navbar-default
+					.container
+						// Brand and toggle get grouped for better mobile display
+						.navbar-header
+							button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+								span.sr-only Toggle navigation
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
+							// a.navbar-brand(href='#') NUDISBCAIUB
+						// Collect the nav links, forms, and other content for toggling
+						#bs-example-navbar-collapse-1.collapse.navbar-collapse.content-small(style='margin: auto;')
+							ul.nav-hover.nav.navbar-nav
+								li
+									a(href='index.html') INICIO
+								li
+									a(href='#') HOTEL
+								li
+									a(href='#') HABITACIONES
+							ul.nav-hover.nav.navbar-nav.navbar-right
+								li
+									a(href='#') SALA DE CONFERENCIA
+								li
+									a(href='#') OFERTAS  
+								li
+									a(href='#') UBICACIÓN 
+		.container.padding-off
+			.text-center
+				p.text-light Para nuestro futuros huéspedes les traemos
+				h2.text-aparaj LAS MEJORES OFERTAS
+				img(src='images/marco-centro.png')
+		.one
+			.pull-left.bg-white.position-box
+				.box-body
+					.green-light
+						.green-dark
+							img.img-dark(style='width:30px; margin:auto;', src='icons/hotel.svg')
+						br
+						span.pd-15.text-light
+							| ¡ESCAPADA RELAX! 
+							b 25% DESC.
+							|  EN
+							|               HABITACIONES MATRIMONIALES
+					.border-green
+						ul.text-light
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+		.two
+			.pull-right.bg-white.position-box-right
+				.box-body
+					.green-light
+						.green-dark
+							img.img-dark(style='width:30px; margin:auto;', src='icons/hotel.svg')
+						br
+						span.pd-15.text-light
+							strong ¡AHORRE UN 35%
+							|  CON
+							|               DESAYUNO INCLUIDO
+					.border-green
+						ul.text-light
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+		.three
+			.pull-left.bg-white.position-box
+				.green-light
+					.green-dark
+						img.img-dark(style='width:30px; margin:auto;', src='icons/hotel.svg')
+					br
+					span.pd-15.text-light
+						strong ¡30% DESCUENTO
+						|  EN
+						|             LA SEGUNDA NOCHE
+				.box-body
+					.border-green
+						ul.text-light
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+		.four
+			.pull-right.bg-white.position-box-right
+				.green-light
+					.green-dark
+						img.img-dark(style='width:30px; margin:auto;', src='icons/hotel.svg')
+					br
+					span.pd-15.text-light
+						| ¡NIÑOS MENORES DE 8 AÑOS 
+						strong NO PAGAN ESTADÍA!
+				.box-body
+					.border-green
+						ul.text-light
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								| tempor incididunt ut labore et dolore magna aliqua.
+		.footer
+			.footer-logo.container
+				.row
+					img(src='images/logo-footer.svg')
+			.contac
+				.container.content-small(style='padding: 1% 10%')
+					.row
+						.col-md-5
+							p.text-light.color-white(style='margin-bottom: 0px;') Avenida Ricardo Rivera Navarrete 450, San Isidro 
+						.col-md-3
+							p.text-light.color-white(style='margin-bottom: 0px;') (511) 2002800         
+						.col-md-4
+							p.text-light.color-white(style='margin-bottom: 0px;') informes@gardenhotel.com
+				//
+					.row
+					.col-md-6
+					p Copyright 2017 - Garden Hotel
+					.col-md-6
+					p Diseño y desarrollo  Raúl Chavez Inche - Lima, Perú
+		script(src='js/bootstrap.min.js')
