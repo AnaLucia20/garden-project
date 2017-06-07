@@ -1,0 +1,68 @@
+
+
+.one {
+  background-image: url("../images/ofertas-optimizados/oferta1.jpg");
+  background-size: cover;
+  height: 415px;
+  margin-bottom: 15px; }
+
+.two {
+  background-image: url("../images/ofertas-optimizados/oferta2.jpg");
+  background-size: cover;
+  height: 415px;
+  margin-bottom: 15px; }
+
+.three {
+  background-image: url("../images/ofertas-optimizados/oferta3.jpg");
+  background-size: cover;
+  height: 415px;
+  margin-bottom: 15px; }
+
+.four {
+  background-image: url("../images/ofertas-optimizados/oferta4.jpg");
+  background-size: cover;
+  height: 415px;
+  margin-bottom: 15px; }
+
+.position-box {
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 340px; }
+
+.position-box-right {
+  position: relative;
+  top: 10%;
+  right: 15%;
+  width: 364px; }
+
+.border-green ul {
+  list-style-type: none; }
+
+.border-green ul li {
+  margin-bottom: 10px; }
+
+.bg-white {
+  background-color: white; }
+
+.pd-15 {
+  padding: 15px; }
+
+.padding-off {
+  padding: 12% 0 2%; }
+
+@media (max-width: 480px) {
+  .box-body {
+    padding: 10px !important; }
+  .position-box {
+    float: none;
+    left: 0px;
+    width: 100%; }
+  .position-box-right {
+    float: none;
+    right: 0px;
+    width: 100%; }
+  .one, .two, .three, .four {
+    padding: 0px 15px;
+    background-repeat: no-repeat;
+    background-position: center; } }
