@@ -272,7 +272,7 @@ opacity: 0.5;
 
 
 /**/
-/*#option*/
+/*option*/
 .sectio-title {
   padding-bottom: 50px; }
 
@@ -332,10 +332,10 @@ opacity: 0.5;
   top: 340px; }
 
 /*LINE WHITE***********************/
-#options {
+.options {
   padding: 9% 0% 0; }
 
-#options h4 {
+.options h4 {
   color: #002E24;
   margin-bottom: 50px;
   font-family: 'Aparaj_0'; }
