@@ -47,12 +47,74 @@
 .pd-15 {
   padding: 15px; }
 
+.mb-0 {
+  margin-bottom: 0px; }
+
+.mt-0 {
+  margin-top: 0px; }
+
 .padding-off {
-  padding: 12% 0 2%; }
+  padding: 18% 0 2%; }
+
+.txt-green-dark {
+  color: #002e24;}
+
+.mt-10{margin-top: 10%;}
+
+.positionabs{
+  position: absolute;}
+
+#carousel-example-habitaciones ol.carousel-indicators{
+  text-align: left;
+  padding-left: 81px;
+}
+/***HABITACIONES BLACK********/
+#rooms{
+  height: 100%;
+}
+.bg-black{
+  background-color: black;
+  padding: 10px;}
+
+.img-hab{width: 100%;}
+
+.content-hab {
+  display: inline-flex;
+}
+
+.txt-hab {
+  font-size: 12px;
+  margin-left: 7px;}
+
+.content-hab .box-green{
+  background-color: #002E24;
+  padding: 4px;
+  width: 50%;
+  text-align: center;}
+.icon-hab{
+  width: 30px;
+  margin-top: 6px;}
+.icon-cafe{
+  width: 17px;}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid #fff;}
+.icon-reserva{
+  background-color: black;
+  width: 32px;
+  border-radius: 50px;
+  padding: 7px;
+  position: absolute;
+  left: -3px;
+}
+/*BTN ****************************************/
+.btn-success{background-color: #002E24;
+  border: 0px;}
 
 @media (max-width: 480px) {
-  .box-body {
-    padding: 10px !important; }
   .position-box {
     float: none;
     left: 0px;
