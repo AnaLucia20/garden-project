@@ -87,7 +87,7 @@
   margin-left: 7px;}
 
 .content-hab .box-green{
-  background-color: #002E24;
+  background-color: #0D5D36;
   padding: 4px;
   width: 50%;
   text-align: center;}
@@ -95,7 +95,7 @@
   width: 30px;
   margin-top: 6px;}
 .icon-cafe{
-  width: 17px;}
+  width: 26px;}
 
 hr {
     margin-top: 5px;
@@ -103,7 +103,7 @@ hr {
     border: 0;
     border-top: 1px solid #fff;}
 .icon-reserva{
-  background-color: black;
+  background-color: #DEE6B5;
   width: 32px;
   border-radius: 50px;
   padding: 7px;
@@ -111,7 +111,7 @@ hr {
   left: -3px;
 }
 /*BTN ****************************************/
-.btn-success{background-color: #002E24;
+.btn-success{background-color: #0d5d36;
   border: 0px;}
 
 @media (max-width: 480px) {

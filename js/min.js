@@ -2,9 +2,8 @@
 
 $(document).ready(function() {
   //Set the carousel options
-  $('#fade-quote-carousel.carousel').carousel({
-    pause: true,
-    interval: 300000,
+  $('#carousel-example-habitaciones').carousel({
+
   });
 });
 

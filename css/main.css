@@ -244,7 +244,14 @@ position: absolute;
   color: #fff; }
   .carousel-inner .txt-slid h2 {
     font-size: 40px; }
-
+#banner-carousel.carousel .carousel-inner .item {
+opacity: 0.5;
+  transition: opacity 500ms ease-in-out;
+}
+#banner-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
 /*********incon-slider*************/
 .icon-left, .icon-right {
     background-color: #E6D9D0;
