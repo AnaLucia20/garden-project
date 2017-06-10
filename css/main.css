@@ -252,6 +252,7 @@ opacity: 0.5;
   opacity: 1;
   transition: opacity 500ms ease-in-out;
 }
+
 /*********incon-slider*************/
 .icon-left, .icon-right {
     background-color: #E6D9D0;
@@ -272,7 +273,7 @@ opacity: 0.5;
 
 
 /**/
-/*option*/
+/*#option*/
 .sectio-title {
   padding-bottom: 50px; }
 
