@@ -478,7 +478,7 @@ opacity: 0.5;
 .box-financiero-resp .box-financ-dom {
   width: 680px;
 }
-  @media(max-width:1365px) {
+  @media(max-width:1024px) {
     .box-financiero :nth-child(4), 
     .box-financiero :nth-child(5) {
       display: none;
@@ -492,7 +492,7 @@ opacity: 0.5;
     background-color: rgba(14, 93, 54, 0.79);
     position: absolute;
     bottom: -1px;
-    height: 45%;
+    height: 54%;
     width: 100%;
     padding: 14px; }
 
