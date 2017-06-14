@@ -127,12 +127,14 @@ hr {
     margin-bottom: 5px;
     border: 0;
     border-top: 1px solid #fff;}
+.sis-reserva {
+  padding-top: 15px;
+}
 .icon-reserva{
   background-color: #DEE6B5;
   width: 36px;
   border-radius: 50%;
   position: absolute;
-  top: 12px;
   left: -3px;
   padding: 7px;
 }

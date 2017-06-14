@@ -114,7 +114,7 @@ section.header {
 
 .icon_peru {
   background: url(../icons/peru.svg) no-repeat;
-  padding-left: 40px; }
+  padding-left: 30px; }
 .icon_peru:hover {
   background: url(../icons/peru-hover.svg) no-repeat;
 }
@@ -132,7 +132,7 @@ section.header {
   padding-top: 13px; }
   .header-contacto p {
     padding: 5px 0 5px 10px;
-        font-size: 16px;
+        font-size: 20px;
          }
 
 /*/*/
@@ -267,12 +267,10 @@ opacity: 0.5;
 
 /*********incon-slider*************/
 .icon-left, .icon-right {
-    background-color: #E6D9D0;
-    border-radius: 50px;
     padding: 5px 20px;
     position: relative;
     top: 58%;
-    font-size: 50px;
+    font-size: 60px;
 }
 .btn-reserva {
   width: 100px;
