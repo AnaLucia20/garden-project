@@ -9,15 +9,13 @@
 
 body {
   background: #fff;
-  font-family: 'Century Gothic', sans-serif; }
+  font-family: 'Century Gothic', sans-serif; 
+  height:100%;}
 body {
   margin: 0;
   padding: 0; }
-
-
 body a {
   -webkit-transition: 0.5s all; }
-
 ul {
   padding: 0;
   margin: 0; }
@@ -25,70 +23,41 @@ ul {
 /****COMMUNS*****/
 .box-body {
   padding: 10px; }
-
 .box-body p {
   font-size: 13px;
   margin: 0px; }
-
 .border-green {
   border: 1.3px solid #bbd8a2;
   padding: 9px; 
   margin-top: 9px;}
-
-.i-green-light{
-  color: #BBD8A2;
-}
-
-.txt-light{
-  color: #bcd7a2; 
-}
-.color-white{
-  color: white;
-}
-
-.mr-5{
-  margin-right: 5px;
-}
-
-.mg-0{
-  margin: 0px;
-}
-
-.inlineflex{
-  display: inline-flex;
-}
-
-.pd-0 {
-  padding: 0; }
-
+.i-green-light{color: #BBD8A2;}
+.txt-light{color: #bcd7a2;}
+.color-white{color: white;}
+.color-green {color: #0E5D36;}
+.pd-0 {padding: 0; }
+.mt-30{margin-top: 30px}
+.mr-5{margin-right: 5px;}
+.mg-0{margin: 0px;}
+.inlineflex{display: inline-flex;}
 .items-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start; 
-  padding-top: 20px;
-        }
-
-.color-green {
-  color: #0E5D36; }
+  -ms-flex-align: start;
+  align-items: flex-start; 
+  padding-top: 20px;}
 
 /*********HEADER***********/
 section.header {
   padding: 12px 0 10px;
   background-color: white !important;
   color: black !important;
-  /*padding: 11px;*/
   border-top: 4px solid #BBD8A2; }
-
-
-
 .idiomas {
   height: auto;
   width: auto;
   overflow: hidden; }
-
 .idiomas ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,13 +66,10 @@ section.header {
   -ms-flex-pack: end;
   justify-content: flex-end;
   list-style-type: none; }
-
 .idiomas ul li {
   font-size: 12px; }
-
 .idiomas ul li a {
   color: #666; }
-
 .icon_euu {
   background: url(../icons/eeuu.svg) no-repeat;
   padding-left: 40px;
@@ -111,109 +77,84 @@ section.header {
 .icon_euu:hover {
   background: url(../icons/eeuu-hover.svg) no-repeat;
 }
-
 .icon_peru {
   background: url(../icons/peru.svg) no-repeat;
   padding-left: 30px; }
 .icon_peru:hover {
   background: url(../icons/peru-hover.svg) no-repeat;
 }
-
 .header-contacto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding-top: 13px; }
-  .header-contacto p {
-    padding: 5px 0 5px 10px;
-        font-size: 20px;
-         }
+.header-contacto p {
+  padding: 5px 0 5px 10px;
+  font-size: 20px;}
 
-/*/*/
 /*************MENU************/
 .navbar-default {
   background-color: #0E5D36;
   border: none; }
-
 .navbar {
   border-radius: 0px; }
-
 .navbar-default .navbar-nav > li > a {
   color: #fff; }
-
 /*jugadamenu*/
 .navbar-brand {
   display: none; }
-
 .navbar-nav {
   margin-left: -15px; }
-
 .logo-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.navbar {
-  margin-bottom: 0px !important; }
-
+  -ms-flex-pack: center;
+  justify-content: center; }
+.navbar {margin-bottom: 0px !important; }
 .nav.navbar-nav li a {
     padding: 15px 15px;
     font-size: 12.4px;
-    letter-spacing: 0.4px;
-  }
-
+    letter-spacing: 0.4px;}
 .nav.navbar-nav li:hover {
   color: #fff;
   background-color: #002D23; }
-
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
   background-color: transparent; }
-
 .nav-top {
   background-color: white !important;
   color: black !important;
   height: 30px;
   padding: 20px;
   border-top: 4px solid #BBD8A2; }
-
 .logo {
   width: 135px; 
-position: absolute;
-    z-index: 1;
-    top: 41px;
-    }
-
-
+  position: absolute;
+  z-index: 1;
+  top: 41px;}
 .circle-logo {
-    align-items: center;
-    background-color: #fff;
-    position: absolute;
-    /* left: 41%; */
-    top: 39px;
-    /* bottom: -99px; */
-    height: 132px;
-    width: 272px;
-    z-index: 1;
-    border-bottom-left-radius: 150px;
-    /* padding: 0px 67px 11px; */
-    border-bottom-right-radius: 150px; 
-    box-shadow: 0 3px 1px rgba(0,0,0,0.10), 0 1px 4px transparent;
-  }
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  top: 39px;
+  height: 132px;
+  width: 272px;
+  z-index: 1;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px; 
+  box-shadow: 0 3px 1px rgba(0,0,0,0.10), 0 1px 4px transparent;}
 
 /*-hover-on-menu*/
-.nav-hover li {
-  position: relative; }
 
+.nav-hover li {position: relative; }
 .nav-hover li a:before {
   content: '';
   display: block;
@@ -231,32 +172,23 @@ position: absolute;
   transition: color 0.3s,-webkit-transform 1s ease-out;
   transition: color 0.3s,transform 1s ease-out;
   transition: color 0.3s,transform 1s ease-out,-webkit-transform 1s ease-out; }
-
 .nav-hover li a:active::before {
   background-color: #BBD8A2; }
-
 .nav-hover li a:hover::before, .nav-hover li a:focus::before {
   -webkit-transform-origin: left top;
   transform-origin: left top;
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1); }
 
-/**/
-
 /*******SLIDER-HOME**********/
-.carousel-inner .txt-slid {
-  color: #fff; }
-  .carousel-inner .txt-slid h2 {
-    font-size: 40px; }
+.carousel-inner .txt-slid {color: #fff; }
+.carousel-inner .txt-slid h2 {font-size: 40px; }
 #banner-carousel.carousel .carousel-inner .item {
-opacity: 0.5;
-  transition: opacity 500ms ease-in-out;
-}
+  opacity: 0.5;
+  transition: opacity 500ms ease-in-out;}
 #banner-carousel.carousel .carousel-inner .active {
   opacity: 1;
-  transition: opacity 500ms ease-in-out;
-}
-
+  transition: opacity 500ms ease-in-out;}
 .img-shadow {
   background: url('../images/bg-header.png') repeat-x center top;
   height: 175px;
@@ -267,60 +199,24 @@ opacity: 0.5;
 
 /*********incon-slider*************/
 .icon-left, .icon-right {
-    padding: 5px 20px;
-    position: relative;
-    top: 58%;
-    font-size: 60px;
-}
+  padding: 5px 20px;
+  position: relative;
+  top: 58%;
+  font-size: 60px;}
 .btn-reserva {
   width: 100px;
   height: 100px;
   position: fixed;
   right: 0px;
   z-index: 999;
-  top: 40%;
-}
+  top: 40%;}
 
-
-/**/
 /*#option*/
-.sectio-title {
-  padding-bottom: 50px; }
 
-/**/
+.sectio-title {padding-bottom: 30px; }
 .home1 {
-  min-height: 100%; }
-
-
-/*.row {
-  margin: 0px !important; }*/
-
-
-
-
-/*.navbar-default{
-  background-color: #0e5d36 !important;
-  margin-bottom: 0px !important-;
-  position: fixed !important;
-  z-index: 1000;
-  width: 100%}
-.navbar-default li a{
-  color: white !important;}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  background-color: transparent !important;}
-.nav-top {
-    background-color: white !important;
-  color: black !important;
-  height: 30px;
-  padding: 20px;
-  border-top: 4px solid #BBD8A2;}
-.nav.navbar-nav li a{
-  font-size:11px;
-  padding: 15px 11px;}
-.navbar-nav{
-  padding-left: 24% !important;
-  position: absolute; }
-/********************NAV****/
+  height: auto; 
+  position: relative;}
 #bg-home {
   background-image: url(../img/inicio-optimizados/banner1.jpg);
   width: 100%;
@@ -328,7 +224,6 @@ opacity: 0.5;
   background-size: cover;
   height: 600px;
   background-position: bottom; }
-
 .content-text {
   text-align: center;
   position: relative;
@@ -336,57 +231,45 @@ opacity: 0.5;
   margin: auto;
   color: white;
   font-family: 'Aparaj_0'; }
-
 .content-text .wrap-txt {
   position: absolute;
   width: 100%;
   top: 340px; }
-
 /*LINE WHITE***********************/
-.options {
-  padding: 9% 0% 0; }
-
+.options {padding: 9% 0% 0; }
 .options h4 {
   color: #002E24;
   margin-bottom: 50px;
   font-family: 'Aparaj_0'; }
 
 /*****************IMG BOX ******/
-#grid-img {
-  margin-top: 25px; }
-
+#grid-img {margin-top: 25px;}
 .img-box {
   width: 100%;
   background-image: url("../images/inicio-optimizados/inicio-habitaciones.jpg");
   background-size: cover;
   height: 232px; }
-
 .img-box1 {
   background-image: url(../images/inicio-optimizados/banner1.jpg);
   width: 100%;
   background-size: cover;
   height: 232px; }
-
 .img-box2 {
   background-image: url(../images/inicio-optimizados/inicio-sala-de-conferencia.jpg);
   width: 100%;
   background-size: cover;
   height: 232px; }
-
 .img-box3 {
   background-image: url(../images/inicio-optimizados/inicio-restaurante.jpg);
   width: 100%;
   background-size: cover;
   height: 232px; }
-
 .green-light {
   background-color: #BBD8A2;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   width: 100%; }
-
-
 .green-dark {
   background-color: #002E24;
   width: 22%;
@@ -394,12 +277,9 @@ opacity: 0.5;
   text-align: center; }
 .box-verde.green-dark {
   background-color: rgba(0, 45, 35, 0.77);
-  width: 100%; 
+  width: auto; 
   text-align: left;}
-
-.img-dark {
-  width: 38px; }
-
+.img-dark {width: 38px; }
 .title-service {
   padding: 25px 15px 0px;
   color: #002E24; }
@@ -412,13 +292,11 @@ opacity: 0.5;
   -webkit-transition: -webkit-all 1s ease;
   -webkit-transition: all 1s ease;
   transition: all 1s ease; }
-
 .img-zoom {
   width: 100%;
   -webkit-transition: -webkit-all 1s ease;
   -webkit-transition: all 1s ease;
   transition: all 1s ease; }
-
 .img-zoom:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -426,47 +304,35 @@ opacity: 0.5;
   -webkit-transition: all 1s ease;
   transition: all 1s ease; }
 
-
 /****FINANCIERO***/
 
 .text-financiero {
   padding: 9% 0 50px;
   text-align: center; }
-
-.text-financiero .intro {
-  padding-top: 10px; }
-
+.text-financiero .intro {padding-top: 10px; }
 .box-financiero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; }
-
 .box-financiero .col-flex {
   width: 20%;
   background-color: #0E5D36;
   position: relative; }
-
-.box-financiero .col-flex img {
-  width: 100%; }
-
+.box-financiero .col-flex img {width: 100%; }
 .box-financiero .col-flex .box-verde {
   background-color: rgba(14, 93, 54, 0.79);
-  /*position: absolute;*/
   bottom: -1px;
   height: 30%;
-  width: 100%; 
-}
+  width: 100%; }
 .box-verde {
   background-color: rgba(14, 93, 54, 0.79);
   position: absolute;
   bottom: -1px;
   height: 38%;
   width: 100%;
-  padding: 14px; }
-
-  }
+  padding: 14px;}
 .box-financiero .col-flex .box-verde p {
   margin: 0;
   font-size: 13px;
@@ -474,20 +340,35 @@ opacity: 0.5;
   color: #fff;
   padding: 20px; }
 
-.box-financ-dom {
-     width: 467px;
-     position: relative;
+/*****FINANCIERO****/
+.img-w1       {
+  background-image: url('../images/ubicacion/bancos.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;
+}
+.img-w2       {
+  background-image: url('../images/ubicacion/westin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;}
+.img-w3       {
+  background-image: url('../images/ubicacion/huaca.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;}
+.img-w4       {
+  background-image: url('../images/ubicacion/areas-verdes.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;
+}
+/**********MEDIAS**************/
 
-}
-.box-financ-dom img {
-    width: 100%;
-}
-.box-financiero-resp {
-  display: none;
-}
-.box-financiero-resp .box-financ-dom {
-  width: 680px;
-}
   @media(max-width:1024px) {
     .box-financiero :nth-child(4), 
     .box-financiero :nth-child(5) {
@@ -497,16 +378,18 @@ opacity: 0.5;
           display: flex;
     }
   }
+
   @media(max-width:1500px) {
-  .box-verde {
-    background-color: rgba(14, 93, 54, 0.79);
-    position: absolute;
-    bottom: -1px;
-    height: 54%;
-    width: 100%;
-    padding: 14px; }
+    .box-verde {
+      background-color: rgba(14, 93, 54, 0.79);
+      position: absolute;
+      bottom: -1px;
+      height: 54%;
+      width: 100%;
+      padding: 14px; }
 
   }
+
   @media(max-width:768px) {
     .box-financiero :nth-child(4), 
     .box-financiero :nth-child(5) {
@@ -523,7 +406,6 @@ opacity: 0.5;
     width: 100%;
     }
   }
-/**/
 
 /**********FOOTER¨**************/
 .icon-footer{
