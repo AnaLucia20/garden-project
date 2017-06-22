@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- bootstrap-->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/fxtransparent.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/fxsmall.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/demo.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/fxfullwidth.css" rel="stylesheet" type="text/css" media="all">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
     <!-- animate.css-->
     <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
@@ -44,6 +48,8 @@
   </style>
   <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
   <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="./js/classie.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
   <script type="text/javascript">
       $(document).ready(function () {
           $('#fullpage').fullpage({
@@ -65,7 +71,8 @@
     </script>
 
   </head>
-  <div class="nav-fix" style="position: fixed;width: 100%;z-index: 99">
+
+  <div class="navbar navbar-default navbar-fixed-top">
     <section class="header">
       <div class="container content-small">
         <div class="row">
@@ -141,11 +148,12 @@
               </svg>
             </a>
           </div>
-          <div class="carousel-inner">
-            <div class="img-shadow"></div>
-            <div class="item active">
+          <div id="component" class="carousel-inner component component-fullwidth fxSoftScale">
+            <!--<div class="img-shadow"></div>-->
+            <div class="item active component component-fullwidth fxSoftScale">
               <a href="#">
                 <img src="./images/inicio-optimizados/banner1.jpg" width="100%">
+                <div class="img-shadow"></div>
               </a>
               <div class="carousel-caption">
                 <div class="txt-slid">
@@ -161,6 +169,7 @@
             <div class="item">
               <a href="#">
                 <img src="./images/inicio-optimizados/banner2.jpg" width="100%">
+                <div class="img-shadow"></div>
               </a>
               <div class="carousel-caption">
                 <div class="txt-slid">
@@ -176,6 +185,7 @@
             <div class="item">
               <a href="#">
                 <img src="./images/inicio-optimizados/banner3.jpg" width="100%">
+                <div class="img-shadow"></div>  
               </a>
               <div class="carousel-caption">
                 <div class="txt-slid">
@@ -398,3 +408,5 @@
     </div>
   </div>
 </html>
+
+
