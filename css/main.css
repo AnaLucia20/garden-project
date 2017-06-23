@@ -148,7 +148,7 @@ section.header {
   padding: 20px;
   border-top: 4px solid #BBD8A2; }
 .logo {
-  width: 135px; 
+  width: 141px; 
   position: absolute;
   z-index: 1;
   top: 41px;}
@@ -156,12 +156,12 @@ section.header {
   align-items: center;
   background-color: #fff;
   position: absolute;
-  top: 39px;
-  height: 132px;
-  width: 272px;
+  top: 82px;
+  height: 98px;
+  width: 217px;
   z-index: 1;
-  border-bottom-left-radius: 150px;
-  border-bottom-right-radius: 150px; 
+  border-bottom-left-radius: 151px;
+  border-bottom-right-radius: 151px; 
   box-shadow: 0 3px 1px rgba(0,0,0,0.10), 0 1px 4px transparent;}
 
 /*-hover-on-menu*/
