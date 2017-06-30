@@ -133,18 +133,26 @@ button.slick-next.slick-arrow , .slick-prev:before, .slick-next:before{display: 
   top: 12%;
   left: 7%;}
 .box-body-hotel{padding: 10px;}
-.slick-list.draggable:nth-child(1) {height: 360px;}
+/*.slick-list.draggable:nth-child(1) {height: 360px;}*/
 .pd-18{padding: 18px 18px 4px}
 /**SLIDER SMALL**/
 .slider-nav {
   width: 100%;}
 .wrap-small {
-  width: 200px !important;
+  width: 129px !important;
   margin: 24px 5px 0px !important;}
 .slider-nav {
-  width: 85% !important;
+  width: 100% !important;
   margin: auto;}
 .wrap-small.slick-slide:focus {outline: 0px !important;}
+.slick-slide {
+  
+  display: inline-block;
+  margin: auto;
+}
+.slick-track{
+  transform: none !important; 
+}
 /***********************UBICACIÖN************************************/
 #ubicacion{
   padding-top: 7%;

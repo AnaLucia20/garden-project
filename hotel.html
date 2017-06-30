@@ -331,7 +331,7 @@
         </div>
       </div>
       <div class="bg-slide-black">
-        <div class="slider slider-nav">
+        <div class="slider slider-nav" data-slick='{"slidesToShow": 7, "slidesToScroll": 7}'>
           <div class="wrap-small">
             <img class="img-hotel" alt="" src="./images/hotel-optimizados/recepcion.jpg" alt="">
             <p class="txt-float color-white">
@@ -455,9 +455,9 @@
         asNavFor: '.slider-nav'
       });
       $('.slider-nav').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
         asNavFor: '.slider-for',
+        slidesToShow: 7,
+        slidesToScroll: 1,
         dots: false,
         centerMode: true,
         focusOnSelect: true
