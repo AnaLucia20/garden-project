@@ -55,7 +55,10 @@
       </div>
     </section>
     <section class="logo-nav">
-      <div class="circle-logo"></div><img class="logo" src="images/logo-menu.svg" alt="logo-hotel-garden">
+      <div class="circle-logo">
+        <img src="images/medialuna.png">
+      </div>
+      <img class="logo" src="images/logo-menu.svg" alt="logo-hotel-garden">
     </section>
     <section class="menu">
       <nav class="navbar navbar-default">
@@ -331,7 +334,7 @@
         </div>
       </div>
       <div class="bg-slide-black">
-        <div class="slider slider-nav" data-slick='{"slidesToShow": 7, "slidesToScroll": 7}'>
+        <div class="slider slider-nav">
           <div class="wrap-small">
             <img class="img-hotel" alt="" src="./images/hotel-optimizados/recepcion.jpg" alt="">
             <p class="txt-float color-white">
@@ -389,7 +392,7 @@
           <div class="col-md-offset-1  col-md-4">
             <p class="color-white" style="margin-bottom: 0px">
                <img class="icon-footer" src="icons/direccion-cabecera.svg" alt="">
-              Avenida Ricardo Rivera Navarrete 450, San Isidro </p>
+              Avenida Ricardo Rivera Navarrete 450,<br> San Isidro </p>
           </div>
           <div class="col-md-3">
             <p class="color-white" style="margin-bottom: 0px">
@@ -455,9 +458,9 @@
         asNavFor: '.slider-nav'
       });
       $('.slider-nav').slick({
-        asNavFor: '.slider-for',
-        slidesToShow: 7,
+        slidesToShow: 3,
         slidesToScroll: 1,
+        asNavFor: '.slider-for',
         dots: false,
         centerMode: true,
         focusOnSelect: true

@@ -101,13 +101,13 @@ section.header {
   display: flex;
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: flex-start;
+  align-items: center;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
   padding-top: 13px; }
 .header-contacto p {
-  padding: 5px 0 5px 10px;
+  padding: 5px 0 0px 10px;
   font-size: 20px;}
 
 /*************MENU************/
@@ -154,16 +154,10 @@ section.header {
   top: 41px;}
 .circle-logo {
   align-items: center;
-  background-color: #fff;
   position: absolute;
-  top: 82px;
-  height: 98px;
-  width: 217px;
+  top: 98px;
   z-index: 1;
-  border-bottom-left-radius: 151px;
-  border-bottom-right-radius: 151px; 
-  box-shadow: 0 3px 1px rgba(0,0,0,0.10), 0 1px 4px transparent;}
-
+  }
 /*-hover-on-menu*/
 
 .nav-hover li {position: relative; }
@@ -219,7 +213,7 @@ section.header {
 .icon-left, .icon-right {
   padding: 5px 20px;
   position: relative;
-  top: 58%;
+  top: 44%;
   font-size: 60px;}
 .btn-reserva {
   width: 100px;
@@ -254,7 +248,7 @@ section.header {
   width: 100%;
   top: 340px; }
 /*LINE WHITE***********************/
-/*.options {padding: 9% 0% 0; }*/
+.options {padding: 6% 0% 0; }
 .options h4 {
   color: #002E24;
   margin-bottom: 50px;
