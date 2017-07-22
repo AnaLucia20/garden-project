@@ -208,7 +208,10 @@ section.header {
     position: absolute;
     width: 100%;
   }
+.carousel-caption {
+    bottom: 60px;
 
+}
 /*********incon-slider*************/
 .icon-left, .icon-right {
   padding: 5px 20px;
