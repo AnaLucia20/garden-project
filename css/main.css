@@ -188,7 +188,10 @@ section.header {
 
 /*******SLIDER-HOME**********/
 .carousel-inner .txt-slid {color: #fff; }
-.carousel-inner .txt-slid h2 {font-size: 40px; }
+.carousel-inner .txt-slid h2 {
+  font-size: 40px;
+  text-shadow: 5px 4px 10px #2b0a0c;
+   }
 #banner-carousel.carousel .carousel-inner .item {
   opacity: 0.5;
   transition: opacity 500ms ease-in-out;}
