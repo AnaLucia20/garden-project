@@ -408,18 +408,18 @@ section.header {
       width: 100%;
       padding: 14px; }
 
+
+/************************************LOGO/header ****************************/
+
   }
   @media(max-width:991px) {
     .items-line{padding-top: 0px;}
     .navbar-nav{margin-right: -35px;}
     .navbar-nav{margin-left: 11px !important; } 
-    .navbar.navbar-default .container{margin:0px !important;}
+    
     section.header {padding: 12px 0 0px;}
-    /************************************LOGO ****************************/
     .circle-logo{
       top: 116px;
-      height: 90px;
-      width: 163px;
     }
     .logo {
       width: 70px;
@@ -432,8 +432,23 @@ section.header {
       padding: 15px 10px;
     }
   }
+  @media (max-width: 968px){
+      .logo {
+            width: 100px;
+           position: absolute;
+           z-index: 1;
+           top: 76px;
+            margin-left: -24px;
+      }
+      .circle-logo img {
+      width: 80%;
+    }
+  }
   @media(max-width: 580px){
-    .btn-reserva{display: none;}
+    .btn-reserva{
+      display: none;
+    }
+
   }
 
   @media(max-width:768px) {
@@ -450,6 +465,10 @@ section.header {
     }
     .logo-nav{display: none;}
     .navbar-nav{margin: 0px !important}
+
+
+
+
     /***********************HABITACIONES***********************/
     .img-hab {min-height: 430px;}
     /******************HOTEL****************/
