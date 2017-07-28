@@ -62,14 +62,15 @@ ul {
 
 /*********HEADER***********/
 section.header {
-  padding: 12px 0 10px;
+  padding: 6px 0;
   background-color: white !important;
   color: black !important;
-  border-top: 4px solid #BBD8A2; }
+  border-top: 4px solid #BBD8A2;}
 .idiomas {
   height: auto;
   width: auto;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 5px; }
 .idiomas ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,7 +106,7 @@ section.header {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  padding-top: 13px; }
+  }
 .header-contacto p {
   padding: 5px 0 0px 10px;
   font-size: 20px;}
@@ -151,11 +152,11 @@ section.header {
   width: 141px; 
   position: absolute;
   z-index: 1;
-  top: 41px;}
+  top: 18px;}
 .circle-logo {
   align-items: center;
   position: absolute;
-  top: 98px;
+  top: 79px;
   z-index: 1;
   }
 /*-hover-on-menu*/
@@ -444,12 +445,7 @@ section.header {
       width: 80%;
     }
   }
-  @media(max-width: 580px){
-    .btn-reserva{
-      display: none;
-    }
 
-  }
 
   @media(max-width:768px) {
     .box-financiero :nth-child(4), 
@@ -465,18 +461,17 @@ section.header {
     }
     .logo-nav{display: none;}
     .navbar-nav{margin: 0px !important}
-
-
-
-
-    /***********************HABITACIONES***********************/
     .img-hab {min-height: 430px;}
-    /******************HOTEL****************/
     .img-hotel1 {
       min-height: 390px;
     }
   }
+  @media(max-width: 580px){
+    .btn-reserva{
+      display: none;
+    }
 
+  }
   @media(max-width: 480px){
     .carousel-inner .txt-slid h2 {font-size: 20px;}
     .carousel-inner .txt-slid h4 {font-size: 11px;}
