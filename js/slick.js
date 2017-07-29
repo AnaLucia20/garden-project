@@ -44,12 +44,12 @@
                 appendDots: $(element),
                 arrows: true,
                 asNavFor: null,
-                prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0" role="button">Previous</button>',
-                nextArrow: '<button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0" role="button">Next</button>',
+                prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0" role="button"><i class="fa fa-chevron-left" aria-hidden="true"></i>Previous</button>',
+                nextArrow: '<button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i>Next</button>',
                 autoplay: false,
                 autoplaySpeed: 3000,
                 centerMode: false,
-                centerPadding: '50px',
+                centerPadding: '115px',//centrar la foto activada / reduce width img
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
                     return $('<button type="button" data-role="none" role="button" tabindex="0" />').text(i + 1);

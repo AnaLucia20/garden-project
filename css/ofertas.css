@@ -125,7 +125,6 @@ hr {
   position: relative;
 }
 .slick-dotted.slick-slider{margin-bottom: 0px !important;}
-button.slick-next.slick-arrow , .slick-prev:before, .slick-next:before{display: none !important;}
 #box-body-hotel{
   padding: 10px;
   width: 35% !important;
@@ -135,11 +134,26 @@ button.slick-next.slick-arrow , .slick-prev:before, .slick-next:before{display: 
 .box-body-hotel{padding: 10px;}
 .slick-list.draggable:nth-child(1) {height: 600px;}
 .pd-18{padding: 18px 18px 4px}
+.slider .slick-prev .fa {
+position: relative;
+    top: -20px;
+    left: -6px;
+    z-index: 1;
+    color: #bcd7a2;
+    font-size: x-large;
+}
+.slider .slick-next .fa {
+position: relative;
+    top: -20px;
+    left: 6px;
+    z-index: 1;
+    color: #bcd7a2;
+    font-size: x-large;
+}
 /**SLIDER SMALL**/
 .slider-nav {
   width: 100%;}
 .wrap-small {
-  width: 200px !important;
   margin: 24px 5px 0px !important;}
 .slider-nav {
   width: 60% !important;
