@@ -6,5 +6,11 @@ $(document).ready(function() {
 
   });
 });
+$(document).ready(function() {
+  //Set the carousel options
+  $('#carousel-example-ubicacion').carousel({
+
+  });
+});
 
 
