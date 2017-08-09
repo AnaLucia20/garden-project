@@ -49,7 +49,7 @@
                 autoplay: false,
                 autoplaySpeed: 3000,
                 centerMode: false,
-                centerPadding: '115px',//centrar la foto activada / reduce width img
+                centerPadding: '231px',//centrar la foto activada / reduce width img
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
                     return $('<button type="button" data-role="none" role="button" tabindex="0" />').text(i + 1);
