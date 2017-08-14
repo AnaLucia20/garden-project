@@ -187,26 +187,23 @@ section.header {
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1); }
 
+
+
+
 /*******SLIDER-HOME**********/
 .carousel-inner .txt-slid {color: #fff; }
 .carousel-inner .txt-slid h2 {
   font-size: 40px;
   text-shadow: 5px 4px 10px #2b0a0c;
    }
-#banner-carousel.carousel .carousel-inner .item {
-  opacity: 0.5;
-  transition: opacity 500ms ease-in-out;}
-#banner-carousel.carousel .carousel-inner .active {
+/*
+#carousel-example .carousel-inner .item {
+  opacity: 0;
+  transition: opacity 5000ms ease-in-out;}
+#carousel-example .carousel-inner .active {
   opacity: 1;
-  transition: opacity 500ms ease-in-out;}
+  transition: opacity 5000ms ease-in-out;}
 .img-shadow {
- /* background: url('../images/bg-header.png') repeat-x center top;
-  height: 175px;
-  position: absolute !important;
-  bottom: 0px;
-  width: 100%;
-  z-index: 1;
-    box-shadow: 1px -6px 20px 110px rgba(0, 0, 0, 0.42), 0px -20px 20px 20px rgba(0, 0, 0, 0.42);*/
     box-shadow:0px -21px 45px 117px rgba(0, 0, 0, 0.56);
     height: 140px;
     position: absolute;
@@ -215,8 +212,29 @@ section.header {
 .carousel-caption {
     bottom: 60px;
 
+}*/
+.carousel-example {  
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  max-width: 700px;
+  margin: 50px auto;}
+.carousel-inner {
+  box-shadow: 0 20px 50px -25px rgba(0, 0, 0, 1);
 }
-
+#carousel-example .carousel-inner .item {
+      height: 100%;
+    position: relative;
+    z-index: 1;
+}
+#carousel-example .carousel-inner .item  {
+    width: 100%;
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  transform: scale(1.2);
+}
+#carousel-example .carousel-inner .active  {
+      transform: scale(1);
+    }
 /*********incon-slider*************/
 .icon-left, .icon-right {
   padding: 5px 20px;
@@ -467,7 +485,7 @@ section.header {
     }
     .logo-nav{display: none;}
     .navbar-nav{margin: 0px !important}
-    .img-hab {min-height: 430px;}
+    .img-hab {min-height: 100px;}
     .img-hotel1 {
       min-height: 390px;
     }
