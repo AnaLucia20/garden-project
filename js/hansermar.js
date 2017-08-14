@@ -94,7 +94,7 @@ function hansermarConstructor() {
     };
     /* owlcarousel galeria min */ this.owlcarouselGaleriaMin = function () {
         var bucle = ($("#galeria_min .owl-carousel").eq(0).length > 1) ? true : false;
-        var puntos = ($("#galeria_min .owl-carousel .item").length > 1) ? false : false;
+        var puntos = ($("#galeria_min .owl-carousel .item").length > 1) ? true : false;
         $("#galeria_min .owl-carousel").owlCarousel({animateIn: "", animateOut: "", autoplay: true, autoplayHoverPause: true, autoWidth: false, center: true, dots: puntos, items: 1, loop: bucle, margin: 0, nav: false, navText: [], slideBy: 1, smartSpeed: 500, stagePadding: 0, startPosition: "", URLhashListener: false});
     };
     /* fancybox ajax */ this.fancyboxAjax = function () {
