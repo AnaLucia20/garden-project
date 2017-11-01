@@ -284,21 +284,21 @@ section.header {
 #grid-img {margin-top: 25px;}
 .img-box {
   width: 100%;
-  background-image: url("../images/inicio-optimizados/inicio-habitaciones.jpg");
+  background-image: url("../images/calidad/habitaciones.jpg");
   background-size: cover;
   height: 232px; }
 .img-box1 {
-  background-image: url(../images/inicio-optimizados/banner1.jpg);
+  background-image: url("../images/calidad/hotel.jpg");
   width: 100%;
   background-size: cover;
   height: 232px; }
 .img-box2 {
-  background-image: url(../images/inicio-optimizados/inicio-sala-de-conferencia.jpg);
+  background-image: url("../images/calidad/auditrorio.jpg");
   width: 100%;
   background-size: cover;
   height: 232px; }
 .img-box3 {
-  background-image: url(../images/inicio-optimizados/inicio-restaurante.jpg);
+  background-image: url("../images/calidad/comedor.jpg");
   width: 100%;
   background-size: cover;
   height: 232px; }
