@@ -1,23 +1,14 @@
 .one {
-  background-image: url("../images/ofertas-optimizados/oferta1.jpg");
+  background-image: url("../images/habitaciones/h-2.jpg");
   background-size: cover;
   height: 415px;
   margin-bottom: 15px; }
 .two {
-  background-image: url("../images/ofertas-optimizados/oferta2.jpg");
+  background-image: url("../images/habitaciones/h-1.jpg");
   background-size: cover;
   height: 415px;
   margin-bottom: 15px; }
-.three {
-  background-image: url("../images/ofertas-optimizados/oferta3.jpg");
-  background-size: cover;
-  height: 415px;
-  margin-bottom: 15px; }
-.four {
-  background-image: url("../images/ofertas-optimizados/oferta4.jpg");
-  background-size: cover;
-  height: 415px;
-  margin-bottom: 15px; }
+
 .position-box {
   position: relative;
   top: 10%;
@@ -187,3 +178,27 @@ position: relative;
   .sis-reserva {margin-left: 20px;}
   .icon-reserva{left: 14px;}
 }
+
+ @media(max-width: 900px) {
+  .wrap-small {
+    display: none;
+  }
+ }
+   @media(max-width:868px) {
+    .slider .slick-prev .fa {
+    position: relative;
+    top: -380px;
+    left: -49px;
+    z-index: 1;
+    color: #bcd7a2;
+    font-size: x-large;
+    }
+    .slider .slick-next .fa {
+    position: relative;
+    top: -380px;
+    left: 49px;
+    z-index: 1;
+    color: #bcd7a2;
+    font-size: x-large;
+    }
+  }

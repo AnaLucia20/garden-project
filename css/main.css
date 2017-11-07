@@ -487,12 +487,34 @@ section.header {
     .navbar-nav{margin: 0px !important}
     .img-hab {min-height: 100px;}
     .img-hotel1 {
-      min-height: 390px;
+      min-height: 220px;
+    }
+    .slider .slick-prev .fa {
+    position: relative;
+    top: -380px;
+    left: -49px;
+    z-index: 1;
+    color: #bcd7a2;
+    font-size: x-large;
     }
   }
+
+  .logo-responsive {
+    display: none;
+    margin: auto;
+
+  }
+
   @media(max-width: 580px){
-    .btn-reserva{
+    .btn-reserva,.header-contacto, .items-line{
       display: none;
+    }
+    .logo-responsive {
+    display: block;
+    }
+    .idiomas ul { 
+    justify-content: center;
+    margin: 20px 0;
     }
 
   }
