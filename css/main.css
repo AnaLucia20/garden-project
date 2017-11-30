@@ -109,7 +109,7 @@ section.header {
   }
 .header-contacto p {
   padding: 5px 0 0px 10px;
-  font-size: 20px;}
+  font-size: 17px;}
 
 /*************MENU************/
 .navbar-default {
@@ -156,7 +156,7 @@ section.header {
 .circle-logo {
   align-items: center;
   position: absolute;
-  top: 79px;
+  top: 76px;
   z-index: 1;
   }
 /*-hover-on-menu*/
@@ -398,7 +398,7 @@ section.header {
   background-repeat: no-repeat;
   height: 280px;}
 .img-w3       {
-  background-image: url('../images/ubicacion/huaca.jpg');
+  background-image: url('../images/ubicacion/centro-comercial.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -497,11 +497,17 @@ section.header {
     color: #bcd7a2;
     font-size: x-large;
     }
+    .idiomas {
+      position: absolute;
+    top: -30px;
+    right: -20px;
+    }
   }
 
   .logo-responsive {
     display: none;
     margin: auto;
+    padding-bottom: 15px;
 
   }
 
@@ -511,6 +517,7 @@ section.header {
     }
     .logo-responsive {
     display: block;
+    width: 50%;
     }
     .idiomas ul { 
     justify-content: center;
@@ -525,6 +532,9 @@ section.header {
       top: 70px;
       font-size: 50px;
     }
+     .img-hotel1 {
+      min-height: 150px;
+    }   
   }
 
 /**********FOOTER¨**************/

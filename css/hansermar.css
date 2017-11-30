@@ -139,7 +139,17 @@ img.marker{position:absolute;bottom:0;left:50%;-ms-transform:translate(-50%,0);-
 @media(min-width:569px){#inicio_banner .owl-carousel,#inicio_banner .owl-stage-outer,#inicio_banner .owl-stage,#inicio_banner .owl-item{height:100%}
                         #inicio_banner .item{height:100%;overflow:hidden}
                         #inicio_banner .item img{min-height:100%;margin:auto 0 auto -1000px;width:auto;min-width:100%;position:absolute;bottom:0;left:50%;top:0}
-                        #inicio_banner .item .container-fluid .enriquecido{background:rgba(0, 0, 0, 0.51);padding:15px;text-shadow:2px 2px 4px #000;width:600px;position:absolute;bottom: -680px; /*bottom: calc(50% - 15px);*/ right:25%;transform:scale(0.7);transform-origin:100% 100%/*;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color='#000000',Positive='true')*/}
+                        #inicio_banner .item .container-fluid .enriquecido{
+                        background:rgba(0, 0, 0, 0.51);
+                        padding:15px;
+                        text-shadow:2px 2px 4px #000;
+                        width:600px;
+                        position:relative;
+                        top: 550px;
+                        margin: auto;
+                        /*bottom: calc(50% - 15px);*/ 
+                        transform-origin:100% 100%/*;
+                        filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color='#000000',Positive='true')*/}
                         #inicio_banner .item .container-fluid .enriquecido h2{color:#fff;line-height:0.8em;margin:0;text-align:left;    display: flex;
     flex-wrap: wrap;
     justify-content: center;}
