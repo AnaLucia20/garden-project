@@ -582,7 +582,8 @@ section.header {
   background-color: #01281F; }
 
 .creditos {
- margin-top: 20px
+ margin-top: 20px;
+ font-size: 12px;
 }
 .direc, .copy {
   text-align: left;
