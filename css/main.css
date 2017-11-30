@@ -70,7 +70,8 @@ section.header {
   height: auto;
   width: auto;
   overflow: hidden;
-  padding-top: 5px; }
+  padding-top: 5px;
+      height: 25px; }
 .idiomas ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,7 +79,8 @@ section.header {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  list-style-type: none; }
+  list-style-type: none;
+      display: none; }
 .idiomas ul li {
   font-size: 12px; }
 .idiomas ul li a {
