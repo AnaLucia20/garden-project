@@ -27,7 +27,7 @@ div,*:before,*:after{
 
 /* plugin */
 .owl-controls,.owl-nav{position:static}
-.owl-nav div{color: rgba(255, 255, 255, 0);font-family:"icomoon";font-size:30px;height:100%;text-align:center;width:10%;min-width:60px;position:absolute;bottom:0}
+.owl-nav div{color: #fff;font-family:"icomoon";font-size:30px;height:100%;text-align:center;width:10%;min-width:60px;position:absolute;bottom:76px;}
 .owl-nav div.owl-prev{left:0}
 .owl-nav div.owl-next{right:0}
 .owl-nav div:before{display:block;height:30px;margin:auto 0;opacity:0.6;width:50px;position:absolute;bottom:0;top:0}
@@ -138,7 +138,7 @@ img.marker{position:absolute;bottom:0;left:50%;-ms-transform:translate(-50%,0);-
 }
 @media(min-width:569px){#inicio_banner .owl-carousel,#inicio_banner .owl-stage-outer,#inicio_banner .owl-stage,#inicio_banner .owl-item{height:92%}
                         #inicio_banner .item{height:100%;overflow:hidden}
-                        #inicio_banner .item img{min-height:100%;margin:auto 0 auto -1000px;width:auto;min-width:100%;position:absolute;bottom:0;left:50%;top:0}
+                        #inicio_banner .item img{min-height:100%;margin:auto 0 auto -712px;/*width:auto;*/min-width:100%;position:absolute;bottom:0;left:50%;top:0}
                         #inicio_banner .item .container-fluid .enriquecido{
                         background:rgba(0, 0, 0, 0.51);
                         padding:15px;
