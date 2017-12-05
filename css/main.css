@@ -322,6 +322,7 @@ section.header {
 .green-light span {
   font-size: 20px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .box-verde.green-dark {
